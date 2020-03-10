@@ -1,0 +1,4 @@
+db:
+  host: https://uat-___
+  username: db-uat-user
+  port: 1333
