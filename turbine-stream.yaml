@@ -1,0 +1,4 @@
+db:
+  host: https://turbine-db
+
+spring.application.name: updated-turbine-app-from-config-server
