@@ -1,4 +1,0 @@
-db:
-  host: https://config-server___
-  username: db-config-server-user
-  port: 1222

@@ -1,4 +1,6 @@
 db:
   host: https://turbine-db
+  username: db-config-server-user
+  port: 1222
 
 spring.application.name: updated-turbine-app-from-config-server
