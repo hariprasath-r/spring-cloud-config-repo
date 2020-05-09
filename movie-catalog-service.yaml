@@ -1,0 +1,5 @@
+endpoints:
+  user-info-service: http://user-info-service
+  movie-info-service: http://movie-info-service
+  rating-data-service: http://rating-data-service
+  version: /v1
