@@ -1,7 +1,5 @@
 turbine:
-  app-config:
-  - movie-catalog-service
-  - movie-info-service
+  app-config: movie-info-service, movie-catalog-service 
 
 db:
   host: https://turbine-db
