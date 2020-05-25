@@ -1,5 +1,5 @@
 PORT: 8200
 
 tmdb:
-  base_url: https://api.themoviedb.org/3/
+  base_url: https://api.themoviedb.org/4/
   api_key: 525074f1f0ee4cd494ffe0adee6b0074
