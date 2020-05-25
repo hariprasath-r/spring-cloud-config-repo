@@ -1,5 +1,5 @@
 turbine:
-  app-config-list:
+  app-config:
   - movie-catalog-service
   - movie-info-service
 
