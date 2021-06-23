@@ -27,4 +27,4 @@ flyway:
 management:
   endpoints:
     enabled-by-default: true
-    web.exposue: health, env
+    web.exposue: '*'
