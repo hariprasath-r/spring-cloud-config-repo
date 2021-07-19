@@ -15,7 +15,7 @@ spring:
     url: jdbc:h2:mem:jpop
 
 # DB Migration
-spring.flyway.enabled: true
+spring.flyway.enabled: false
 flyway:
   url: jdbc:h2:mem:jpop
   schemas: LIBRARYSERVICE
