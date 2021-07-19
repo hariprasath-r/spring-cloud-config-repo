@@ -21,12 +21,12 @@ zuul:
     library-service:
       path: /library-api/**
       serviceId: library-service
-      stripPrefix: true
+      stripPrefix: false
     book-service:
       path: /book-api/**
       serviceId: book-service
-      stripPrefix: true
+      stripPrefix: false
     user-service:
       path: /user-api/**
       serviceId: user-service
-      stripPrefix: true
+      stripPrefix: false
