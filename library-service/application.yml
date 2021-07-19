@@ -56,3 +56,11 @@ swagger-custom:
   contact:
     name: Hariprasath
     url: https://github.com/hariprasath-r
+
+book-service:
+  name: book-service
+  root-path: /book-api/books
+
+user-service:
+  name: user-service
+  path: /user-api/users
