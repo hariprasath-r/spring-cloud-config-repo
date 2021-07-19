@@ -18,3 +18,15 @@ zuul:
       path: /user-info/**
       serviceId: user-info-service
       stripPrefix: true
+    library-service:
+      path: /library-api/**
+      serviceId: library-service
+      stripPrefix: true
+    book-service:
+      path: /book-api/**
+      serviceId: book-service
+      stripPrefix: true
+    user-service:
+      path: /user-api/**
+      serviceId: user-service
+      stripPrefix: true
