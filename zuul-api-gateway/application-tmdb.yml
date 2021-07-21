@@ -1,0 +1,11 @@
+
+zuul:
+  routes:
+    movie-catalog-service:
+      path: /movie-catalog/**
+      serviceId: movie-catalog-service
+      stripPrefix: true
+    user-info-service:
+      path: /user-info/**
+      serviceId: user-info-service
+      stripPrefix: true

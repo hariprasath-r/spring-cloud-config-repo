@@ -1,0 +1,14 @@
+zuul:
+  routes:
+    library-service:
+      path: /library-api/**
+      serviceId: library-service
+      stripPrefix: false
+    book-service:
+      path: /book-api/**
+      serviceId: book-service
+      stripPrefix: false
+    user-service:
+      path: /user-api/**
+      serviceId: user-service
+      stripPrefix: false

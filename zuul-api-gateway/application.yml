@@ -9,24 +9,3 @@ zuul:
     connect-timeout-millis: 5000000
     socket-timeout-millis: 5000000
   ignoredServices: '*'
-  routes:
-    movie-catalog-service:
-      path: /movie-catalog/**
-      serviceId: movie-catalog-service
-      stripPrefix: true
-    user-info-service:
-      path: /user-info/**
-      serviceId: user-info-service
-      stripPrefix: true
-    library-service:
-      path: /library-api/**
-      serviceId: library-service
-      stripPrefix: false
-    book-service:
-      path: /book-api/**
-      serviceId: book-service
-      stripPrefix: false
-    user-service:
-      path: /user-api/**
-      serviceId: user-service
-      stripPrefix: false
